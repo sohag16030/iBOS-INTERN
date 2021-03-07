@@ -15,18 +15,31 @@ namespace FirstCrudeOperationUsingNetCore.Models
         }
         public PersonTest AddPersonTest(PersonTest personTest)
         {
-            throw new NotImplementedException();
-            ///return  _context.PersonTest.Add(personTest);
+            personTest.IntPersonId = 4;
+            _context.PersonTest.Add(personTest);
+            _context.SaveChanges();
+            return personTest;
         }
 
         public void DeletePersonTest(PersonTest personTest)
-        {
-            throw new NotImplementedException();
+        { 
+            _context.PersonTest.Remove(personTest);
+            _context.SaveChanges();
+
         }
 
         public PersonTest EditPersonTest(PersonTest personTest)
         {
-            throw new NotImplementedException();
+            var existingPerson = _context.PersonTest.Find(personTest.IntPersonId);
+            if (existingPerson != null)
+            {
+                existingPerson.IntPersonId = personTest.IntPersonId;
+                existingPerson.StrName = personTest.StrName;
+                existingPerson.Age = personTest.Age;
+                _context.PersonTest.Update(existingPerson);
+                _context.SaveChanges();
+            }
+            return personTest;
         }
         public PersonTest GetPersonTest(long id)
         {
