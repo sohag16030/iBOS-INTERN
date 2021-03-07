@@ -6,10 +6,6 @@ namespace FirstCrudeOperationUsingNetCore.Models
 {
     public partial class MyDbContext : DbContext
     {
-        public MyDbContext()
-        {
-        }
-
         public MyDbContext(DbContextOptions<MyDbContext> options)
             : base(options)
         {
@@ -22,7 +18,7 @@ namespace FirstCrudeOperationUsingNetCore.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Server=10.109.133.151,41527;Database=RND;User Id=rnduser;password=userrnd@321;Trusted_Connection=False;MultipleActiveResultSets=true;");
             }
         }

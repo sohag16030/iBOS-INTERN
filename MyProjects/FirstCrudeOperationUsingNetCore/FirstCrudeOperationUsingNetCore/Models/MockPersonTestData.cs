@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FirstCrudeOperationUsingNetCore.Models
 {
-    public class MockPersonTestData : IPersonTestData
+    public class MockPersonTestData
     {
         //private readonly IPersonTestData _personTestData;
         //public MockPersonTestData(IPersonTestData personTestData)
@@ -15,25 +15,23 @@ namespace FirstCrudeOperationUsingNetCore.Models
         //    _personTestData = personTestData;
         //}
 
-        ////RNDContext _context = new RNDContext();
-
-        private List<PersonTest> listofPertests = new List<PersonTest>()
-        {
-            new PersonTest()
-            {
-                IntPersonId = 2164823,
-                StrName = "Rafi",
-                StrAddress = "dhaka",
-                Age = 12
-            },
-            new PersonTest()
-            {
-                IntPersonId = 89789784823,
-                StrName = "kafi",
-                StrAddress = "dhaka",
-                Age = 18
-            },
-        };
+        //private List<PersonTest> listofPertests = new List<PersonTest>()
+        //{
+        //    new PersonTest()
+        //    {
+        //        IntPersonId = 2164823,
+        //        StrName = "Rafi",
+        //        StrAddress = "dhaka",
+        //        Age = 12
+        //    },
+        //    new PersonTest()
+        //    {
+        //        IntPersonId = 89789784823,
+        //        StrName = "kafi",
+        //        StrAddress = "dhaka",
+        //        Age = 18
+        //    },
+        //};
 
         //public PersonTest AdPersonTest(PersonTest personTest)
         //{
@@ -56,9 +54,9 @@ namespace FirstCrudeOperationUsingNetCore.Models
         //    //return listofPertests.FirstOrDefault(x => x.IntPersonId == id);
         //    //return _context.FindAsync(id);
         //}
-        public List<PersonTest> GetAllPersonTests()
-        {
-            return listofPertests;
-        }
+        //public List<PersonTest> GetAllPersonTests()
+        //{
+        //    return listofPertests;
+        //}
     }
 }

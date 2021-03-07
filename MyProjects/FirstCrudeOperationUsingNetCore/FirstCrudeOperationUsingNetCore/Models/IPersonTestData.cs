@@ -9,9 +9,9 @@ namespace FirstCrudeOperationUsingNetCore.Models
     public interface IPersonTestData
     {
         List<PersonTest> GetAllPersonTests();
-        //PersonTest GetPersonTest(long id);
-        //PersonTest AdPersonTest(PersonTest personTest);
-        //void DeletePersonTest(PersonTest personTest);
-        //PersonTest EditPersonTest(PersonTest personTest);
+        PersonTest GetPersonTest(long id);
+        PersonTest AddPersonTest(PersonTest personTest);
+        void DeletePersonTest(PersonTest personTest);
+        PersonTest EditPersonTest(PersonTest personTest);
     }
 }
