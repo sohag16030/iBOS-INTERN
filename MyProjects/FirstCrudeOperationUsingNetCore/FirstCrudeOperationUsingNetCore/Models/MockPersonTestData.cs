@@ -17,23 +17,23 @@ namespace FirstCrudeOperationUsingNetCore.Models
 
         ////RNDContext _context = new RNDContext();
 
-        //private List<PersonTest> listofPertests = new List<PersonTest>()
-        //{
-        //    new PersonTest()
-        //    {
-        //        IntPersonId = 2164823,
-        //        StrName = "Rafi",
-        //        StrAddress = "dhaka",
-        //        Age = 12
-        //    },
-        //    new PersonTest()
-        //    {
-        //        IntPersonId = 89789784823,
-        //        StrName = "kafi",
-        //        StrAddress = "dhaka",
-        //        Age = 18
-        //    },
-        //};
+        private List<PersonTest> listofPertests = new List<PersonTest>()
+        {
+            new PersonTest()
+            {
+                IntPersonId = 2164823,
+                StrName = "Rafi",
+                StrAddress = "dhaka",
+                Age = 12
+            },
+            new PersonTest()
+            {
+                IntPersonId = 89789784823,
+                StrName = "kafi",
+                StrAddress = "dhaka",
+                Age = 18
+            },
+        };
 
         //public PersonTest AdPersonTest(PersonTest personTest)
         //{
@@ -50,15 +50,15 @@ namespace FirstCrudeOperationUsingNetCore.Models
         //    throw new NotImplementedException();
         //}
 
-        ////public PersonTest GetPersonTest(long id)
-        ////{
-        ////    throw new NotImplementedException();
-        ////    //return listofPertests.FirstOrDefault(x => x.IntPersonId == id);
-        ////    //return _context.FindAsync(id);
-        ////}
-        //public List<PersonTest> GetAllPersonTests()
+        //public PersonTest GetPersonTest(long id)
         //{
-        //    return listofPertests;
+        //    throw new NotImplementedException();
+        //    //return listofPertests.FirstOrDefault(x => x.IntPersonId == id);
+        //    //return _context.FindAsync(id);
         //}
+        public List<PersonTest> GetAllPersonTests()
+        {
+            return listofPertests;
+        }
     }
 }

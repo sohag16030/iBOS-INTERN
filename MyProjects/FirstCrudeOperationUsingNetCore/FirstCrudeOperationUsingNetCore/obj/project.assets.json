@@ -4988,11 +4988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\MyProjects\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore.csproj",
+      "projectUniqueName": "F:\\iBOS-INTERN\\MyProjects\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore.csproj",
       "projectName": "FirstCrudeOperationUsingNetCore",
-      "projectPath": "F:\\MyProjects\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore.csproj",
+      "projectPath": "F:\\iBOS-INTERN\\MyProjects\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore.csproj",
       "packagesPath": "C:\\Users\\iBos\\.nuget\\packages\\",
-      "outputPath": "F:\\MyProjects\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore\\obj\\",
+      "outputPath": "F:\\iBOS-INTERN\\MyProjects\\FirstCrudeOperationUsingNetCore\\FirstCrudeOperationUsingNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\iBos\\AppData\\Roaming\\NuGet\\NuGet.Config",

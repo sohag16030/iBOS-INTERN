@@ -20,10 +20,10 @@ namespace FirstCrudeOperationUsingNetCore.Controllers
 
         [HttpGet]
         [Route("api/[controller]")]
-        //public IActionResult GetAllPersonTests()
-        //{
-        //    return Ok(_personTestData.GetAllPersonTests());
-        //}
+        public IActionResult GetAllPersonTests()
+        {
+            return Ok(_personTestData.GetAllPersonTests());
+        }
         //[HttpGet]
         //[Route("api/[controller]/{id}")]
         //public IActionResult GetPersonTests(long id)
