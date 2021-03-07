@@ -29,7 +29,7 @@ namespace FirstCrudeOperationUsingNetCore
         {
             //var migrationAssemblyName = typeof(Startup).Assembly.FullName;
             services.AddControllers();
-            services.AddDbContextPool<MyDbContext>(options =>
+            services.AddDbContextPool<RNDContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IPersonTestData, SqlPersonTestData>();
             //services.AddTransient<IOrderTestData, MockOrderTestData>();

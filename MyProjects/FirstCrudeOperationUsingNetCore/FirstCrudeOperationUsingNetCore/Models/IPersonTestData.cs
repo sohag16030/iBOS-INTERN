@@ -12,6 +12,6 @@ namespace FirstCrudeOperationUsingNetCore.Models
         PersonTest GetPersonTest(long id);
         PersonTest AddPersonTest(PersonTest personTest);
         void DeletePersonTest(PersonTest personTest);
-        PersonTest EditPersonTest(PersonTest personTest);
+        //PersonTest EditPersonTest(PersonTest personTest);
     }
 }

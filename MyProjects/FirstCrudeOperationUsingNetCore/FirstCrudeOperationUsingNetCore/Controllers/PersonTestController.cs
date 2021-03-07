@@ -20,11 +20,17 @@ namespace FirstCrudeOperationUsingNetCore.Controllers
 
         [HttpPost]
         [Route("api/[controller]")]
-        public IActionResult AddPersonTests(PersonTest personTest)
+        public IActionResult AddPersonTests(PersonTestCreateModel personTest)
         {
-            _personTestData.AddPersonTest(personTest);
+             PersonTest persontest = new PersonTest
+             {
+                    StrName = personTest.StrName,
+                    StrAddress = personTest.StrAddress,
+                    Age = personTest.Age
+             };
+             _personTestData.AddPersonTest(persontest);
+            
             return Ok();
-
         }
 
         [HttpDelete]
@@ -40,19 +46,18 @@ namespace FirstCrudeOperationUsingNetCore.Controllers
             return NotFound($"person with id {id} is Not Found");
         }
 
-        [HttpPatch]
-        [Route("api/[controller]/{id}")]
-        public IActionResult EditPersonTest(long id, PersonTest personTest)
-        {
-            var existingPerson = _personTestData.GetPersonTest(id);
-            if (existingPerson != null)
-            {
-                personTest.IntPersonId = existingPerson.IntPersonId;
-                _personTestData.EditPersonTest(personTest);
-            }
+        //[HttpPatch]
+        //[Route("api/[controller]/{id}")]
+        //public IActionResult EditPersonTest(long id, PersonTestEditModel personTest)
+        //{
+        //    var existingPerson = _personTestData.GetPersonTest(id);
+        //    if (existingPerson != null)
+        //    {
+        //        _personTestData.EditPersonTest(personTest);
+        //    }
 
-            return Ok(personTest);
-        }
+        //    return Ok(personTest);
+        //}
 
         [HttpGet]
         [Route("api/[controller]/{id}")]
@@ -71,6 +76,6 @@ namespace FirstCrudeOperationUsingNetCore.Controllers
         {
             return Ok(_personTestData.GetAllPersonTests());
         }
-        
+
     }
 }
