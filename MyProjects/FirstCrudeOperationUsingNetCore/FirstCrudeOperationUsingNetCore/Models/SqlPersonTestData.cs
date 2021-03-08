@@ -52,6 +52,9 @@ namespace FirstCrudeOperationUsingNetCore.Models
         {
             return _context.PersonTest.ToList();
         }
+        public void ExecuteStoreProcedure()
+        {
 
+        }
     }
 }

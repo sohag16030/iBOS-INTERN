@@ -32,6 +32,7 @@ namespace FirstCrudeOperationUsingNetCore
             services.AddDbContextPool<RNDContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IPersonTestData, SqlPersonTestData>();
+            services.AddTransient<IOrderData, OrderService>();
             //services.AddTransient<IOrderTestData, MockOrderTestData>();
         }
 

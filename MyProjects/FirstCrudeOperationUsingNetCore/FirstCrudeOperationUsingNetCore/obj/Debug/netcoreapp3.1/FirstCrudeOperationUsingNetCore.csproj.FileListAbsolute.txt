@@ -1,7 +1,3 @@
-F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.AssemblyInfoInputs.cache
-F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.AssemblyInfo.cs
-F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.csproj.CoreCompileInputs.cache
-F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.MvcApplicationPartsAssemblyInfo.cache
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\bin\Debug\netcoreapp3.1\appsettings.Development.json
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\bin\Debug\netcoreapp3.1\appsettings.json
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\bin\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.exe
@@ -29,6 +25,10 @@ F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsi
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.AssemblyInfoInputs.cache
+F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.AssemblyInfo.cs
+F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.csproj.CoreCompileInputs.cache
+F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\FirstCrudeOperationUsingNetCore.MvcApplicationPartsAssemblyInfo.cache
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\staticwebassets\FirstCrudeOperationUsingNetCore.StaticWebAssets.Manifest.cache
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\staticwebassets\FirstCrudeOperationUsingNetCore.StaticWebAssets.xml
 F:\iBOS-INTERN\MyProjects\FirstCrudeOperationUsingNetCore\FirstCrudeOperationUsingNetCore\obj\Debug\netcoreapp3.1\scopedcss\bundle\FirstCrudeOperationUsingNetCore.styles.css

@@ -70,12 +70,7 @@ namespace FirstCrudeOperationUsingNetCore.Controllers
 
         }
 
-        [HttpGet]
-        [Route("api/[controller]")]
-        public IActionResult GetAllPersonTests()
-        {
-            return Ok(_personTestData.GetAllPersonTests());
-        }
+        
 
     }
 }

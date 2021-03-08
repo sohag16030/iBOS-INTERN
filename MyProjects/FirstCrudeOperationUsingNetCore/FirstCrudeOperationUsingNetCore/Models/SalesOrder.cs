@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace FirstCrudeOperationUsingNetCore.Models
 {
-    public partial class OrderTest
+    public partial class SalesOrder
     {
-        public long IntOrderId { get; set; }
-        public string StrOrderNumber { get; set; }
+        public long OrderId { get; set; }
+        public string InvoiceNo { get; set; }
         public long Count { get; set; }
     }
 }
