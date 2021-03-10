@@ -1,2 +1,13 @@
+//MyProject/SME
+server :10.109.133.151,41527
+database : RND
 username : rnduser
 pass : userrnd@321
+
+//https://pos.ibos.io/sales/goodsSales
+mob:12345678910
+pass:12345678
+
+Scaffold-DbContext "Server=10.109.133.151,41527;Database=RND; User Id =rnduser;Password = userrnd@321;" Microsoft.EntityFrameworkCore.SqlServer -o Models -Force
+
+01684022052(forhad bhai)SQA in iBOS
