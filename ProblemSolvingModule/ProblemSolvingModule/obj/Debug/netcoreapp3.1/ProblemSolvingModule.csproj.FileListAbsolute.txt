@@ -1,0 +1,13 @@
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\bin\Debug\netcoreapp3.1\ProblemSolvingModule.exe
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\bin\Debug\netcoreapp3.1\ProblemSolvingModule.deps.json
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\bin\Debug\netcoreapp3.1\ProblemSolvingModule.runtimeconfig.json
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\bin\Debug\netcoreapp3.1\ProblemSolvingModule.runtimeconfig.dev.json
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\bin\Debug\netcoreapp3.1\ProblemSolvingModule.dll
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\bin\Debug\netcoreapp3.1\ProblemSolvingModule.pdb
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\obj\Debug\netcoreapp3.1\ProblemSolvingModule.csprojAssemblyReference.cache
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\obj\Debug\netcoreapp3.1\ProblemSolvingModule.AssemblyInfoInputs.cache
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\obj\Debug\netcoreapp3.1\ProblemSolvingModule.AssemblyInfo.cs
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\obj\Debug\netcoreapp3.1\ProblemSolvingModule.csproj.CoreCompileInputs.cache
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\obj\Debug\netcoreapp3.1\ProblemSolvingModule.dll
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\obj\Debug\netcoreapp3.1\ProblemSolvingModule.pdb
+F:\iBOS-INTERN\ProblemSolvingModule\ProblemSolvingModule\obj\Debug\netcoreapp3.1\ProblemSolvingModule.genruntimeconfig.cache

@@ -4,6 +4,10 @@ database : RND
 username : rnduser
 pass : userrnd@321
 
+server:10.109.133.151,41527
+username:
+pass:appS@Connect
+
 //https://pos.ibos.io/sales/goodsSales
 mob:12345678910
 pass:12345678
